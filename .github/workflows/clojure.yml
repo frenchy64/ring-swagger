@@ -27,7 +27,6 @@ jobs:
         with:
           distribution: temurin
           java-version: ${{ matrix.jdk }}
-          cache: maven
       - name: Maven Cache
         id: maven-cache
         uses: actions/cache@v3
